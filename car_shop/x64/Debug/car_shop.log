@@ -1,0 +1,23 @@
+﻿  Admin.cpp
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.32.31326\include\xutility(4068,9): error C2679: binary '=': no operator found which takes a right-hand operand of type 'Admin' (or there is no acceptable conversion)
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.32.31326\include\iterator(348,1): message : could be 'std::ostream_iterator<std::string,char,std::char_traits<char>> &std::ostream_iterator<std::string,char,std::char_traits<char>>::operator =(std::ostream_iterator<std::string,char,std::char_traits<char>> &&)'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.32.31326\include\iterator(348,1): message : or       'std::ostream_iterator<std::string,char,std::char_traits<char>> &std::ostream_iterator<std::string,char,std::char_traits<char>>::operator =(const std::ostream_iterator<std::string,char,std::char_traits<char>> &)'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.32.31326\include\iterator(324,23): message : or       'std::ostream_iterator<std::string,char,std::char_traits<char>> &std::ostream_iterator<std::string,char,std::char_traits<char>>::operator =(const _Ty &)'
+          with
+          [
+              _Ty=std::string
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.32.31326\include\xutility(4055,1): message : while trying to match the argument list '(std::ostream_iterator<std::string,char,std::char_traits<char>>, Admin)'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.32.31326\include\xutility(4075): message : see reference to function template instantiation '_OutIt std::_Copy_unchecked<Admin*,_OutIt>(_InIt,_InIt,_OutIt)' being compiled
+          with
+          [
+              _OutIt=std::ostream_iterator<std::string,char,std::char_traits<char>>,
+              _InIt=Admin *
+          ]
+C:\Users\Ahmed M. Farid\source\repos\car_shop\car_shop\Admin.cpp(30): message : see reference to function template instantiation '_OutIt std::copy<std::_Vector_iterator<std::_Vector_val<std::_Simple_types<_Ty>>>,std::ostream_iterator<std::string,char,std::char_traits<char>>>(_InIt,_InIt,_OutIt)' being compiled
+          with
+          [
+              _OutIt=std::ostream_iterator<std::string,char,std::char_traits<char>>,
+              _Ty=Admin,
+              _InIt=std::_Vector_iterator<std::_Vector_val<std::_Simple_types<Admin>>>
+          ]

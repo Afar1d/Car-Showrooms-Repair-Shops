@@ -1,0 +1,59 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.32.31329.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///c:/users/ahmed m. farid/source/repos/car_shop/car_shop/car_service.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "sha-256": "a5fc28f0a3e061cdf7607cfa94dd44031bccf73727caf52ec957221de786f5c6"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/ahmed m. farid/source/repos/car_shop/car_shop/car_service.h"
+          },
+          "hashes": {
+            "sha-256": "57f1ca93c13e7a5f8b8b342743643f3605aa9c7c302a0696276fc8e44af11602"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/ahmed m. farid/source/repos/car_shop/car_shop/customer.h"
+          },
+          "hashes": {
+            "sha-256": "449cdbdd2c4c50f52a4c1a616bb2e550b507f45867db487272eac92d4b98df74"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/ahmed m. farid/source/repos/car_shop/car_shop/admin.h"
+          },
+          "hashes": {
+            "sha-256": "c53f7236f4822fcc4604b4072fcd78fb7186ad9f6297235f88bf6f7134ab2365"
+          }
+        }
+      ]
+    }
+  ]
+}
